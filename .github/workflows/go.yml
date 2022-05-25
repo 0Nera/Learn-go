@@ -20,7 +20,7 @@ jobs:
 
     - name: Build
       run: go build -v ./Hello/hello.go
-      run: go build -v ./Variables/vars.go
+           go build -v ./Variables/vars.go
 
     - name: Test
       run: go test -v ./...
